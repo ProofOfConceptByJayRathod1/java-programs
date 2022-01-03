@@ -8,8 +8,8 @@ public class IOProgram {
 	public static void main(String[] args) throws FileNotFoundException {
 	try {
 		
-		FileOutputStream fout=new FileOutputStream(".\\File1.txt");
-		String s="Helo This is the Text of file File1.txt";
+		FileOutputStream fout=new FileOutputStream(".\\Jay_Rathod.txt");
+		String s="Hello I am Jay Rathod";
 		byte[] b=s.getBytes();
 		fout.write(b);
 		fout.close();
@@ -22,7 +22,7 @@ public class IOProgram {
 	
 	try {
 		
-		FileInputStream fin= new FileInputStream(".\\File1.txt");
+		FileInputStream fin= new FileInputStream(".\\Jay_Rathod.txt");
 		int i=0;
 		while((i=fin.read())!=-1)
 		{
